@@ -1,0 +1,213 @@
+/* the welcome section style */
+
+#welcomeSection {
+    height: 398px;
+    & h1 {
+        color: $MainTextFontColor;
+        font-family: $nav-TitlesFont;
+        font-size: 60px;
+        text-shadow: 0 0 10px #000;
+    }
+    
+    & h3 {
+        color: $MainTextFontColor;
+        font-family: $nav-TitlesFont;
+        font-size: 20px;
+    }
+}
+
+/* the service section style */
+
+#servicesSection {
+    background: url('../images/serviceBg1.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 639px;
+    margin-top: 30px;
+    
+    & h1 {
+        color: $mainFontTitlesColor;
+        font-family: $nav-TitlesFont;
+        margin: 40px 0 0 0 ;
+    }
+    
+    & .serviceTitle {
+        color: $MainTextFontColor;
+        font-family: $mainTextFont;
+        margin-top: 40px;
+    }
+    
+    & p {
+        color: $MainTextFontColor;
+        font-family: $mainTextFont;
+    }
+    
+    & .slider {
+    display:block;
+    margin: 40px auto;
+    width: 500px;
+    }
+
+
+    & .line1 {
+        margin-left: 15px;
+    }
+
+
+    & .circle {
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    & .circ1 {
+        color: $mainFontColorHover;
+    }
+
+}
+
+/* the about section style */
+
+#aboutSection {
+    background: $aboutSectionBg;
+    height: 642px;
+    border: 1px solid #000;
+    color: $MainTextFontColor;
+    font-family: $mainTextFont;
+    
+    & h1 {
+      color: $mainFontTitlesColor;
+      font-family: $mainTextFont; 
+    }
+    
+    & #aboutText {
+        color: $MainTextFontColor;
+        font-family: $mainTextFont;
+        margin-top: 150px;
+    }
+    
+    
+    & .well  {
+        background: #555;
+        border: none;
+        border-radius: 50% !important;
+        width: 130px;
+        height: 130px;
+        display: inline-block
+    }
+    
+    & .person1 {
+        float: left;
+        margin: 10px 30px;
+        
+        & p {
+            margin: 10px 75px;
+        }
+    }
+    
+    & .person2 {
+        float: left;
+        margin: 10px 30px;
+        
+        & p {
+            margin: 10px 75px;
+        }
+    }
+    
+    & .person3 {
+        float: left;
+        margin: 10px 30px;
+        
+        & p {
+            margin: 10px 75px;
+        }
+    }
+    
+    & .person4 {
+        float: left;
+        margin: 10px 30px;
+        
+        & p {
+            margin: 10px 75px;
+        }
+    }
+   
+}
+
+/* the contact section style */
+
+#contactSection {
+    background: $contactBg;
+    height: 580px;
+    padding: 30px;
+    
+    & h1{
+        margin: 0;
+        color: $mainFontTitlesColor;
+        font-family: $mainTextFont;
+    }
+    
+    & p {
+        color: $MainTextFontColor;
+        font-family: $mainTextFont;
+        padding: 30px;
+    }
+}
+
+
+/* footer styles */
+
+#footerSection {
+    height: 300px;
+    background: $footerBg;
+    
+    & .social {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px 50px;
+        
+        & i  {
+            margin-left: 10px;
+            
+            &:hover {
+                color: $mainFontColorHover !important;
+            }
+        }
+    }
+    
+    & .navbarFooter  {
+        width: 450px;
+        margin: 0 auto;
+        
+        & ul {
+            list-style: none;
+            
+            & li  {
+                display: inline;
+                margin: 15px;
+                
+                & a {
+                    text-decoration: none;
+                    color: $MainTextFontColor;
+                    font-family: $mainTextFont;
+                    
+                    &:hover {
+                        color: $mainFontColorHover;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .copyright {
+        width: 400px;
+        margin: 0 auto;
+        padding: 10px 55px;
+        
+        & p {
+            color: $MainTextFontColor;
+        }
+    }
+}

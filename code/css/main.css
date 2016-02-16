@@ -1,0 +1,398 @@
+/* the base files */
+/* the font-family variables */
+/* line 1, ../scss/base/_base.scss */
+body {
+  background: url("../images/welcomeBg1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* the layout files */
+/* the navbar style */
+/* line 3, ../scss/layout/_header.scss */
+.navbar {
+  background: transparent !important;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 180px;
+  position: relative;
+}
+
+/* line 12, ../scss/layout/_header.scss */
+.navbar-header {
+  float: none;
+}
+
+/* line 16, ../scss/layout/_header.scss */
+.navbar-toggle {
+  display: block;
+}
+
+/* line 20, ../scss/layout/_header.scss */
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
+
+/* line 25, ../scss/layout/_header.scss */
+.navbar-collapse.collapse {
+  display: none!important;
+}
+
+/* line 29, ../scss/layout/_header.scss */
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+
+/* line 34, ../scss/layout/_header.scss */
+.navbar-nav > li {
+  float: none;
+}
+
+/* line 38, ../scss/layout/_header.scss */
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif, arial, helvetica, verdana !important;
+  color: #d5caca !important;
+}
+/* line 43, ../scss/layout/_header.scss */
+.navbar-nav > li > a:hover {
+  background: transparent !important;
+  color: #cc734c !important;
+}
+
+/* line 49, ../scss/layout/_header.scss */
+.navbar-text {
+  float: none;
+  margin: 15px 0;
+}
+
+/* line 54, ../scss/layout/_header.scss */
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+/* line 58, ../scss/layout/_header.scss */
+.collapsing {
+  overflow: hidden!important;
+}
+
+/* line 62, ../scss/layout/_header.scss */
+#brand {
+  color: #cc734c;
+  font-family: "Lobster", cursive, sans-serif, arial, helvetica, verdana !important;
+  font-size: 30px;
+}
+/* line 67, ../scss/layout/_header.scss */
+#brand:hover {
+  color: #d5caca !important;
+}
+
+/* line 72, ../scss/layout/_header.scss */
+#toggleIcon {
+  border: none;
+}
+/* line 75, ../scss/layout/_header.scss */
+#toggleIcon:focus {
+  background: transparent !important;
+}
+/* line 78, ../scss/layout/_header.scss */
+#toggleIcon:hover {
+  background: #cc734c !important;
+}
+
+/* line 83, ../scss/layout/_header.scss */
+#activeLocal a {
+  color: #cc734c !important;
+}
+/* line 85, ../scss/layout/_header.scss */
+#activeLocal a:hover {
+  color: #d5caca !important;
+}
+
+/* line 90, ../scss/layout/_header.scss */
+.logo {
+  display: inline;
+  height: 50px;
+  position: absolute;
+  margin: 0;
+  top: 0%;
+  right: 50%;
+}
+/* line 98, ../scss/layout/_header.scss */
+.logo p {
+  font-family: "Lobster", cursive, sans-serif, arial, helvetica, verdana !important;
+  font-size: 19px;
+  color: black;
+  margin: 0;
+}
+
+/* the welcome section style */
+/* line 3, ../scss/layout/_content.scss */
+#welcomeSection {
+  height: 398px;
+}
+/* line 5, ../scss/layout/_content.scss */
+#welcomeSection h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif, arial, helvetica, verdana;
+  font-size: 60px;
+  text-shadow: 0 0 10px #000;
+}
+/* line 12, ../scss/layout/_content.scss */
+#welcomeSection h3 {
+  color: black;
+  font-family: "Montserrat", sans-serif, arial, helvetica, verdana;
+  font-size: 20px;
+}
+
+/* the service section style */
+/* line 21, ../scss/layout/_content.scss */
+#servicesSection {
+  background: url("../images/serviceBg1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 639px;
+  margin-top: 30px;
+}
+/* line 30, ../scss/layout/_content.scss */
+#servicesSection h1 {
+  color: #d5caca;
+  font-family: "Montserrat", sans-serif, arial, helvetica, verdana;
+  margin: 40px 0 0 0;
+}
+/* line 36, ../scss/layout/_content.scss */
+#servicesSection .serviceTitle {
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+  margin-top: 40px;
+}
+/* line 42, ../scss/layout/_content.scss */
+#servicesSection p {
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+}
+/* line 47, ../scss/layout/_content.scss */
+#servicesSection .slider {
+  display: block;
+  margin: 40px auto;
+  width: 500px;
+}
+/* line 54, ../scss/layout/_content.scss */
+#servicesSection .line1 {
+  margin-left: 15px;
+}
+/* line 59, ../scss/layout/_content.scss */
+#servicesSection .circle {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 65, ../scss/layout/_content.scss */
+#servicesSection .circ1 {
+  color: #cc734c;
+}
+
+/* the about section style */
+/* line 73, ../scss/layout/_content.scss */
+#aboutSection {
+  background: #af9380;
+  height: 642px;
+  border: 1px solid #000;
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+}
+/* line 80, ../scss/layout/_content.scss */
+#aboutSection h1 {
+  color: #d5caca;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+}
+/* line 85, ../scss/layout/_content.scss */
+#aboutSection #aboutText {
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+  margin-top: 150px;
+}
+/* line 92, ../scss/layout/_content.scss */
+#aboutSection .well {
+  background: #555;
+  border: none;
+  border-radius: 50% !important;
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+}
+/* line 101, ../scss/layout/_content.scss */
+#aboutSection .person1 {
+  float: left;
+  margin: 10px 30px;
+}
+/* line 105, ../scss/layout/_content.scss */
+#aboutSection .person1 p {
+  margin: 10px 75px;
+}
+/* line 110, ../scss/layout/_content.scss */
+#aboutSection .person2 {
+  float: left;
+  margin: 10px 30px;
+}
+/* line 114, ../scss/layout/_content.scss */
+#aboutSection .person2 p {
+  margin: 10px 75px;
+}
+/* line 119, ../scss/layout/_content.scss */
+#aboutSection .person3 {
+  float: left;
+  margin: 10px 30px;
+}
+/* line 123, ../scss/layout/_content.scss */
+#aboutSection .person3 p {
+  margin: 10px 75px;
+}
+/* line 128, ../scss/layout/_content.scss */
+#aboutSection .person4 {
+  float: left;
+  margin: 10px 30px;
+}
+/* line 132, ../scss/layout/_content.scss */
+#aboutSection .person4 p {
+  margin: 10px 75px;
+}
+
+/* the contact section style */
+/* line 141, ../scss/layout/_content.scss */
+#contactSection {
+  background: #928d8d;
+  height: 580px;
+  padding: 30px;
+}
+/* line 146, ../scss/layout/_content.scss */
+#contactSection h1 {
+  margin: 0;
+  color: #d5caca;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+}
+/* line 152, ../scss/layout/_content.scss */
+#contactSection p {
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+  padding: 30px;
+}
+
+/* footer styles */
+/* line 162, ../scss/layout/_content.scss */
+#footerSection {
+  height: 300px;
+  background: #aea2a2;
+}
+/* line 166, ../scss/layout/_content.scss */
+#footerSection .social {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+/* line 171, ../scss/layout/_content.scss */
+#footerSection .social i {
+  margin-left: 10px;
+}
+/* line 174, ../scss/layout/_content.scss */
+#footerSection .social i:hover {
+  color: #cc734c !important;
+}
+/* line 180, ../scss/layout/_content.scss */
+#footerSection .navbarFooter {
+  width: 450px;
+  margin: 0 auto;
+}
+/* line 184, ../scss/layout/_content.scss */
+#footerSection .navbarFooter ul {
+  list-style: none;
+}
+/* line 187, ../scss/layout/_content.scss */
+#footerSection .navbarFooter ul li {
+  display: inline;
+  margin: 15px;
+}
+/* line 191, ../scss/layout/_content.scss */
+#footerSection .navbarFooter ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+}
+/* line 196, ../scss/layout/_content.scss */
+#footerSection .navbarFooter ul li a:hover {
+  color: #cc734c;
+}
+/* line 204, ../scss/layout/_content.scss */
+#footerSection .copyright {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px 55px;
+}
+/* line 209, ../scss/layout/_content.scss */
+#footerSection .copyright p {
+  color: black;
+}
+
+/* the modules files */
+/* buttons style */
+/* line 3, ../scss/modules/_buttons.scss */
+.order {
+  display: block;
+  margin: 30px auto;
+  background: #cc734c !important;
+}
+
+/* line 9, ../scss/modules/_buttons.scss */
+.btn-local-round {
+  background: #cc734c !important;
+  border-radius: 50%;
+}
+
+/* line 14, ../scss/modules/_buttons.scss */
+.btn-local {
+  background: #cc734c !important;
+}
+
+/* line 18, ../scss/modules/_buttons.scss */
+.submit {
+  margin: 20px;
+}
+
+/* form styles */
+/* line 3, ../scss/modules/_form.scss */
+.local-input {
+  background: #575151;
+}
+
+/* line 7, ../scss/modules/_form.scss */
+.name {
+  margin: 40px 20px 0;
+}
+
+/* line 11, ../scss/modules/_form.scss */
+.name1 {
+  width: 300px !important;
+}
+
+/* line 15, ../scss/modules/_form.scss */
+.email {
+  width: 298px !important;
+  float: left;
+  display: inline-block;
+}
+
+/* line 21, ../scss/modules/_form.scss */
+.emailg {
+  margin: 20px 20px;
+}
+
+/* line 25, ../scss/modules/_form.scss */
+.textArea {
+  margin: 10px 20px;
+}
