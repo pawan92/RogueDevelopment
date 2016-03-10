@@ -228,56 +228,81 @@ body {
   display: inline-block;
 }
 /* line 101, ../scss/layout/_content.scss */
-#aboutSection .person1 {
-  float: left;
-  margin: 10px 30px;
+#aboutSection .meetOurTeamTitle {
+  padding: 0 150px;
 }
 /* line 105, ../scss/layout/_content.scss */
-#aboutSection .person1 p {
-  margin: 10px 75px;
+#aboutSection .teamMembers {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 30px;
+  overflow: hidden;
 }
-/* line 110, ../scss/layout/_content.scss */
-#aboutSection .person2 {
-  float: left;
-  margin: 10px 30px;
+/* line 113, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .person1 {
+  margin: 0 4px;
+  box-shadow: 0px 0px 10px #000;
+  height: 140px;
+  width: 190px;
 }
-/* line 114, ../scss/layout/_content.scss */
-#aboutSection .person2 p {
-  margin: 10px 75px;
+/* line 120, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .yasin {
+  padding: 20px 65px;
 }
-/* line 119, ../scss/layout/_content.scss */
-#aboutSection .person3 {
-  float: left;
-  margin: 10px 30px;
+/* line 124, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .person2 {
+  margin: 0 4px;
+  box-shadow: 0px 0px 10px #000;
+  height: 141px;
+  width: 190px;
 }
-/* line 123, ../scss/layout/_content.scss */
-#aboutSection .person3 p {
-  margin: 10px 75px;
+/* line 131, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .mjem {
+  padding: 20px 55px;
 }
-/* line 128, ../scss/layout/_content.scss */
-#aboutSection .person4 {
-  float: left;
-  margin: 10px 30px;
+/* line 135, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .person3 {
+  margin: 0 4px;
+  box-shadow: 0px 0px 10px #000;
+  height: 141px;
+  width: 190px;
 }
-/* line 132, ../scss/layout/_content.scss */
-#aboutSection .person4 p {
-  margin: 10px 75px;
+/* line 144, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .pawan {
+  padding: 20px 55px;
+}
+/* line 148, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .person4 {
+  margin: 0 33px;
+}
+/* line 153, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .info {
+  font-size: 12px  !important;
+  font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
+  color: #000;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+/* line 161, ../scss/layout/_content.scss */
+#aboutSection .teamMembers .m108 {
+  padding: 0 55px;
 }
 
 /* the contact section style */
-/* line 141, ../scss/layout/_content.scss */
+/* line 170, ../scss/layout/_content.scss */
 #contactSection {
   background: #928d8d;
   height: 580px;
   padding: 30px;
 }
-/* line 146, ../scss/layout/_content.scss */
+/* line 175, ../scss/layout/_content.scss */
 #contactSection h1 {
   margin: 0;
   color: #d5caca;
   font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
 }
-/* line 152, ../scss/layout/_content.scss */
+/* line 181, ../scss/layout/_content.scss */
 #contactSection p {
   color: black;
   font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
@@ -285,56 +310,56 @@ body {
 }
 
 /* footer styles */
-/* line 162, ../scss/layout/_content.scss */
+/* line 191, ../scss/layout/_content.scss */
 #footerSection {
   height: 300px;
   background: #aea2a2;
 }
-/* line 166, ../scss/layout/_content.scss */
+/* line 195, ../scss/layout/_content.scss */
 #footerSection .social {
   width: 400px;
   margin: 0 auto;
   padding: 20px 50px;
 }
-/* line 171, ../scss/layout/_content.scss */
+/* line 200, ../scss/layout/_content.scss */
 #footerSection .social i {
   margin-left: 10px;
 }
-/* line 174, ../scss/layout/_content.scss */
+/* line 203, ../scss/layout/_content.scss */
 #footerSection .social i:hover {
   color: #cc734c !important;
 }
-/* line 180, ../scss/layout/_content.scss */
+/* line 209, ../scss/layout/_content.scss */
 #footerSection .navbarFooter {
   width: 450px;
   margin: 0 auto;
 }
-/* line 184, ../scss/layout/_content.scss */
+/* line 213, ../scss/layout/_content.scss */
 #footerSection .navbarFooter ul {
   list-style: none;
 }
-/* line 187, ../scss/layout/_content.scss */
+/* line 216, ../scss/layout/_content.scss */
 #footerSection .navbarFooter ul li {
   display: inline;
   margin: 15px;
 }
-/* line 191, ../scss/layout/_content.scss */
+/* line 220, ../scss/layout/_content.scss */
 #footerSection .navbarFooter ul li a {
   text-decoration: none;
   color: black;
   font-family: "Open Sans", sans-serif, arial, helvetica, verdana;
 }
-/* line 196, ../scss/layout/_content.scss */
+/* line 225, ../scss/layout/_content.scss */
 #footerSection .navbarFooter ul li a:hover {
   color: #cc734c;
 }
-/* line 204, ../scss/layout/_content.scss */
+/* line 233, ../scss/layout/_content.scss */
 #footerSection .copyright {
   width: 400px;
   margin: 0 auto;
   padding: 10px 55px;
 }
-/* line 209, ../scss/layout/_content.scss */
+/* line 238, ../scss/layout/_content.scss */
 #footerSection .copyright p {
   color: black;
 }
