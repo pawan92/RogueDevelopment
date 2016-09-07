@@ -1,0 +1,20 @@
+/* buttons style */
+
+.order {
+    display: block;
+    margin: 30px auto;
+    background: $mainFontColorHover !important;
+}
+
+.btn-local-round {
+    background: $mainFontColorHover !important;
+    border-radius: 50%;
+}
+
+.btn-local {
+    background: $mainFontColorHover !important;
+}
+
+.submit {
+    margin: 20px;
+}
